@@ -21,7 +21,6 @@ export const sendData = (color) => {
 export const subscribe = (cb) => {
     //kanallar arası renk kodunun iletilmesi için
     socket.on('receive', (color) => {
-        console.log(color);
         //callback fonksiyonu ile color değerinin değişimi takip ediliyor
         cb(color);
     });
