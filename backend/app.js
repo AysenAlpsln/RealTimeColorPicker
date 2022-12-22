@@ -26,6 +26,9 @@ io.on("connection", (socket) => {
 		lastColor = color;
         //ve tüm kullanıcılara bu rengi gönderir.
 		io.emit("receive", color);
+
+		//ilk kullanıcı hariç diğer kullanıcılara rengi gönderir.
+		//socket.broadcast.emit("receive", color);
 	});
 
 	socket.on("disconnect", () => {

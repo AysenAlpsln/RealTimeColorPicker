@@ -13,6 +13,11 @@
   margin-bottom: 40px;
 }
 
+.palette .color-input {
+  border: 0 solid #fff;
+  border-radius: 3px;
+}
+
 .palette button {
   margin-top: 10px;
   border: 2px solid rgb(163, 162, 162);
