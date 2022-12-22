@@ -1,5 +1,4 @@
 # Real Time Color Picker
----
 
 _This project was made to understand the logic of real-time projects. We can send the selected color code in real time to all users connected to the same server as the project. The background color of all users in accordance with the sent color code changes instantly._
 
